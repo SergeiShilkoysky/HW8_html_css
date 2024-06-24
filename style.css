@@ -330,12 +330,12 @@ span {
 
 @media (max-width: 767px) and (min-width: 320px) {
 	.container {
-		max-width: 375px;
+		max-width: 320px;
 	}
 	/*========  header  ========*/
 	.header__navigation {
 		justify-content: space-between;
-		gap: 145px;
+		gap: 100px;
 		padding: 18px 16px;
 	}
 	.header__navigation-left-group-header {
@@ -350,15 +350,18 @@ span {
 	}
 	/*======== section main__banner  ========*/
 	.main__banner {
-		max-width: 375px;
+		max-width: 320px;
 		max-height: 363px;
+	}
+	.main__banner-background {
+		align-items: stretch;
 	}
 	/*======== main__offer-content ========*/
 	.main__banner-background-RightSide {
 		display: flex;
 		/* justify-content: flex-start; */
 		/* max-width: 263px; */
-		padding: 148px 54px;
+		padding: 148px 25px;
 	}
 	.main__banner-background-RightSide-title h1 {
 		font-size: 38px;
@@ -386,11 +389,11 @@ span {
 		text-align: center;
 	}
 	.main__cardGroup1 {
-		width: 375px;
+		width: 320px;
 		height: 249px;
 	}
 	.main__offer-content-cardList-cardCategory-card4 {
-		width: 767px;
+		width: 320px;
 		height: 111px;
 		background-position: center;
 		background-size: cover;
